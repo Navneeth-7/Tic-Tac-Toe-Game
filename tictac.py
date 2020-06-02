@@ -73,7 +73,7 @@ while True:
     #Game is ON
 
     while game_on:
-
+        print('\n' * 80)  # prints 80 line breaks
         #Player1
         if turn == 'Player1':
             print("Player 1 Turn and his marker is "+player1_marker)
